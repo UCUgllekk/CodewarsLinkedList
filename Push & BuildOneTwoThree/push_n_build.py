@@ -42,6 +42,6 @@ def build_one_two_three():
         temp = node
     return node
 
-if __name__ == '__main__':
-    import doctest
-    print(doctest.testmod())
+# if __name__ == '__main__':
+#     import doctest
+#     print(doctest.testmod())
