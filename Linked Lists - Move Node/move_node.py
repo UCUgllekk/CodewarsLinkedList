@@ -25,7 +25,6 @@ def move_node(source, dest):
     new_dest.next = dest
     new_source = Node(source.next.data)
     new_source.next = source.next.next
-    print(new_source, new_dest)
     return Context(new_source, new_dest)
 
 if __name__ == '__main__':
