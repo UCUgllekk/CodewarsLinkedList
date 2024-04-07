@@ -27,6 +27,14 @@ def move_node(source, dest):
     new_source.next = source.next.next
     return Context(new_source, new_dest)
 
+    # Alternative solution
+    # if not source:
+    #     raise ValueError
+    # new_dest = Node(source.data)
+    # new_dest.next = dest
+    # new_source = source.next
+    # return Context(new_source, new_dest)
+
 if __name__ == '__main__':
     source = Node(1, Node(2, Node(3)))
     dest = Node(4, Node(5, Node(6)))
