@@ -19,7 +19,7 @@ def linked_list_from_string(s:str | None):
     lst = s.split(' -> ')[::-1][1:]
     temp = None
     for i in range(len(lst)):
-        node = Node(int(lst[i]), temp)
+        node = Node(float(lst[i]), temp)
         temp = node
     return node
 
