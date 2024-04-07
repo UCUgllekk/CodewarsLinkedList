@@ -24,6 +24,6 @@ def stringify(node: "Node"):
         return " -> ".join(output)
     return "None"
 
-if __name__ == "__main__":
-    import doctest
-    print(doctest.testmod())
+# if __name__ == "__main__":
+#     import doctest
+#     print(doctest.testmod())
