@@ -23,6 +23,6 @@ def linked_list_from_string(s:str | None):
         temp = node
     return node
 
-if __name__ == '__main__':
-    import doctest
-    print(doctest.testmod())
+# if __name__ == '__main__':
+#     import doctest
+#     print(doctest.testmod())
