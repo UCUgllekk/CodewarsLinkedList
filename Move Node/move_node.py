@@ -35,7 +35,7 @@ def move_node(source, dest):
     # new_source = source.next
     # return Context(new_source, new_dest)
 
-if __name__ == '__main__':
-    source = Node(1, Node(2, Node(3)))
-    dest = Node(4, Node(5, Node(6)))
-    move_node(source, dest)
+# if __name__ == '__main__':
+#     source = Node(1, Node(2, Node(3)))
+#     dest = Node(4, Node(5, Node(6)))
+#     move_node(source, dest)
